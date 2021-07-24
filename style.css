@@ -40,3 +40,17 @@ body {
   background-repeat: no-repeat;
   background-position: 1260% 65%;
 }
+.question-answer__accordion > .answer {
+  display: none;
+}
+
+.active > .answer {
+  display: block;
+  padding-bottom: 1.3rem;
+  color: var(--darkGrayBlue);
+}
+
+.active img {
+  transform: rotate(180deg);
+  transition: all 0.3s ease-in;
+}
